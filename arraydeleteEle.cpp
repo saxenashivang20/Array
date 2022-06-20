@@ -22,7 +22,7 @@ int deleteEle(int arr[], int n, int x)
 	return n-1;
 } 
 
-    
+    // driver code
 int main() {
 	
        int arr[] = {3, 8, 9, 5, 6}, x = 9, n = 5;
