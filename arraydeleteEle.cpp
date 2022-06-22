@@ -27,16 +27,6 @@ int main() {
 	
        int arr[] = {3, 8, 9, 5, 6}, x = 9, n = 5;
 
-       cout<<"Before Deletion"<<endl;
-
-       for(int i=0; i < n; i++)
-       {
-       	cout<<arr[i]<<" ";
-       }
-
-       cout<<endl;
-
-     
        n = deleteEle(arr, n, x);
 
        cout<<"After Deletion"<<endl;
