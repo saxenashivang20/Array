@@ -10,7 +10,7 @@ int insert(int arr[],int n, int x, int cap, int pos){
     arr[idx] = x;
     return n + 1;
 }
-
+// driver code 
 int main(){
     int arr[5],cap=5, n= 3;
     arr[0]=5;arr[1]=10;arr[2]=20;
