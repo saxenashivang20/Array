@@ -14,14 +14,7 @@ int insert(int arr[],int n, int x, int cap, int pos){
 int main(){
     int arr[5],cap=5, n= 3;
     arr[0]=5;arr[1]=10;arr[2]=20;
-    cout<<"Before Insertion"<<endl;
-
-    for(int i = 0; i<n;i++)
-    {
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
-
+    
     int x= 7 , pos = 2;
 
     n = insert(arr, n, x, cap, pos);
