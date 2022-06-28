@@ -7,8 +7,8 @@ using namespace std;
 	int low = 0, high = n - 1;
 	while(low < high)
 	{
-		int temp = arr[low];    // swap arr[low] and arr[high]
-		arr[low] = arr[high];
+		int temp = arr[low];    // swap arr[low]
+        arr[low] = arr[high];   // and arr[high]
 		arr[high] = temp;
 		low++;
 		high--;
