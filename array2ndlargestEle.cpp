@@ -16,7 +16,7 @@ int secondLargest(int arr[], int n){
  }
     return res;
 }
-int main(){                                           // {5,20,12,20,8}                                                     //
+int main(){                                           // {5,20,12,20,8}                                                     
     int arr[]={5,8,10,20};                            // largest = 0, res = -1
     cout<<secondLargest(arr,4);                       // i=1: res = 0, largest = 1
     return 0;                                         // i=2: res = 2,
