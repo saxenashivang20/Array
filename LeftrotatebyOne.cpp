@@ -2,9 +2,9 @@
 using namespace std;
 void rotateone(int arr[], int n){
     int temp = arr[0];
-    for(int i =1; i<n;i++)
-    arr[i-1]=arr[i];
-    arr[n-1]=temp;
+    for(int i =1; i<n;i++)              // Rotate it Anti clock wise 
+    arr[i-1]=arr[i];                    // input = {1,2,3,4}
+    arr[n-1]=temp;                      // output = {2,3,4,1}
 }
 int main(){
     int arr[]={1,2,3,4},n=4;
