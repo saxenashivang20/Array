@@ -15,3 +15,5 @@ int main(){
     cout<<maxDiff(arr,n);
     
 }
+
+// Maximum value of arr[j] - arr[i] such that j>i
