@@ -35,3 +35,8 @@ int main() {
       cout<<maxProfit(arr, 0, n - 1);
     
 }
+
+
+
+// Consider all the pairs i and j that i is smaller than j and price of j is greater than price of i 
+// consider all pairs find the profit and consider maximum profit 
